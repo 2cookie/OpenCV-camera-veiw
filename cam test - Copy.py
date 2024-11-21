@@ -1,8 +1,8 @@
 import cv2
 
 # Initialize webcam
-id = input("Please enter the number ID of the webcam you want to tuse (if youre not sure input 0 to use the windows default webcam :p)")
-cap = cv2.VideoCapture(id)
+#id = input("Please enter the number ID of the webcam you want to tuse (if youre not sure input 0 to use the windows default webcam :p)")
+cap = cv2.VideoCapture(0)
 
 while True:
     # Capture frame-by-frame
